@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.Tournament;
 import com.example.service.TournamentService;
 
-@CrossOrigin(origins = "https://gamehok.netlify.app")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class mycontroller {
      
