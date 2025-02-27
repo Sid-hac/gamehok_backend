@@ -14,7 +14,7 @@ import com.example.Tournament;
 import com.example.service.TournamentService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://gamehok-frontend.vercel.app")
 public class mycontroller {
      
     @Autowired
