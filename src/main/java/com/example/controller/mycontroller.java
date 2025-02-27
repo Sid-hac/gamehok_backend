@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.Tournament;
 import com.example.service.TournamentService;
 
-@RestController
 @CrossOrigin(origins = "https://gamehok-frontend.vercel.app")
+@RestController
 public class mycontroller {
      
     @Autowired
