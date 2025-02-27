@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(@SuppressWarnings("null") CorsRegistry registry) {
                 registry.addMapping("/**") // Apply to all routes
-                        .allowedOrigins("http://localhost:3000") // Allow frontend origin
+                        .allowedOrigins("https://gamehok-frontend.vercel.app") // Allow frontend origin
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
                         .allowedHeaders("*") // Allow all headers
                         .allowCredentials(true); // Allow cookies/auth headers
